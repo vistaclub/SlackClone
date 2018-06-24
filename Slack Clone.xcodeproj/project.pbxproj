@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		1536100620DF55D60086510D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1536100520DF55D60086510D /* AppDelegate.swift */; };
-		1536100820DF55D60086510D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1536100720DF55D60086510D /* ViewController.swift */; };
+		1536100820DF55D60086510D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1536100720DF55D60086510D /* LoginViewController.swift */; };
 		1536100A20DF55D60086510D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1536100920DF55D60086510D /* Assets.xcassets */; };
 		1536100D20DF55D60086510D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1536100B20DF55D60086510D /* Main.storyboard */; };
+		1536101520DF5D020086510D /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1536101420DF5D020086510D /* MainWindowController.swift */; };
+		1536101720DF5D830086510D /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1536101620DF5D830086510D /* CreateAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1536100220DF55D60086510D /* Slack Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slack Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1536100520DF55D60086510D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1536100720DF55D60086510D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1536100720DF55D60086510D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1536100920DF55D60086510D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1536100C20DF55D60086510D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1536100E20DF55D60086510D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1536101420DF5D020086510D /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		1536101620DF5D830086510D /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				1536100520DF55D60086510D /* AppDelegate.swift */,
-				1536100720DF55D60086510D /* ViewController.swift */,
+				1536101620DF5D830086510D /* CreateAccountViewController.swift */,
+				1536101420DF5D020086510D /* MainWindowController.swift */,
+				1536100720DF55D60086510D /* LoginViewController.swift */,
 				1536100920DF55D60086510D /* Assets.xcassets */,
 				1536100B20DF55D60086510D /* Main.storyboard */,
 				1536100E20DF55D60086510D /* Info.plist */,
@@ -133,8 +139,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1536100820DF55D60086510D /* ViewController.swift in Sources */,
+				1536101720DF5D830086510D /* CreateAccountViewController.swift in Sources */,
+				1536100820DF55D60086510D /* LoginViewController.swift in Sources */,
 				1536100620DF55D60086510D /* AppDelegate.swift in Sources */,
+				1536101520DF5D020086510D /* MainWindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

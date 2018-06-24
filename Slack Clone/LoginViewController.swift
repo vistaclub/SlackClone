@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  LoginViewController.swift
 //  Slack Clone
 //
 //  Created by Jason Wong on 2018-06-23.
@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class ViewController: NSViewController {
+class LoginViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,12 +16,13 @@ class ViewController: NSViewController {
         // Do any additional setup after loading the view.
     }
 
-    override var representedObject: Any? {
-        didSet {
-        // Update the view, if already loaded.
+
+    @IBAction func createAccountClicked(_ sender: Any) {
+        
+        if let mainVC = view.window?.windowController as? MainWindowController {
+            mainVC.moveToCreateAccount()
         }
+        
     }
-
-
 }
 
